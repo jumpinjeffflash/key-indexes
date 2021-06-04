@@ -13,7 +13,7 @@ if option == 'Carrier dashboard':
     
     st.write("# Key Indexes for Carriers")
     st.write("## Summary:")
-    st.write("""Transporters are facing rising costs. The indexes below are all trending up and to the right, suggesting that it will take a while before their expenses start to cool off.""")
+    st.write("""The cost of transporation continues to rise. The indexes below are all trending up and to the right, suggesting that it will take a while before expenses start to cool off.""")
     
 ### This fetches all the Quandl data    
     
