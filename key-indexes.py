@@ -24,7 +24,12 @@ if option == 'Carrier dashboard':
 ## CASS Truckload Linehaul Index
     cassctli = quandl.get("CASS/CTLI")
 
+### VISUAL: DAT National Spot Rates
 
+    st.write("""## National Spot Rates: Van, Flatbed & Reefer""")
+    st.write("""(DAT Freight data)""")
+    st.image("https://i.ibb.co/w7gV2J4/dat-april-jul-2021.png", width=900)
+    
 ### VISUAL: DOLLARS PER GALLON (DPG)    
     
     st.write("""## US Regular Conventional Gas Price: Dollars per Gallon""")
