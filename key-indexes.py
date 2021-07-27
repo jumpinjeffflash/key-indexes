@@ -28,7 +28,7 @@ if option == 'Carrier dashboard':
 
     st.write("""## Flatbed Rates""")
     st.image("https://www.dat.com/wp-content/uploads/2020/11/dat_logo_dat_f_a_vertical_digital_blue.279x0-is-hidpi.png", width=85)
-    st.write("Click here for Flatbed Demand & Capacity: [link](https://www.dat.com/industry-trends/trendlines/flatbed/demand-and-capacity)")
+    st.write("Click here for National Flatbed Demand & Capacity: [link](https://www.dat.com/industry-trends/trendlines/flatbed/demand-and-capacity)")
     st.write("Click here for National Flatbed Rates: [link](https://www.dat.com/industry-trends/trendlines/flatbed/national-rates)")
 
 ### VISUAL: DOLLARS PER GALLON (DPG)    
