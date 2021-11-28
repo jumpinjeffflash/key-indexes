@@ -86,7 +86,7 @@ if option == 'Shipper dashboard':
     
     st.write("# Key Indexes for Shippers")
     st.write("## Summary:")
-    st.write("""Consumers aren't as confident as they were pre-pandemic, but their optimism is gradually improving. Used vehicle sales are close to their peak of mid-2007, which creates transporation opportunities.""")
+    st.write("""Consumers aren't as confident as they were pre-pandemic. Used vehicle sales are an at all-time high, which creates transporation opportunities.""")
 
 ### This fetches all the Quandl data
 
