@@ -24,7 +24,7 @@ if option == 'Carrier dashboard':
 ## CASS Truckload Linehaul Index - commenting out because they don't update any more
 #    cassctli = quandl.get("CASS/CTLI")
 ## Big Mac Index
-    mac = quandl.get("ECONOMIST/BIGMAC_USA", qopts={"columns":"local_price"})
+    bigmac = quandl.get("ECONOMIST/BIGMAC_USA", qopts={"columns":"local_price"})
 
 
 ### LOGO & Links: DAT National Spot Rates
@@ -89,9 +89,9 @@ if option == 'Carrier dashboard':
     
     st.write("""This index tracks the cost of purchasing a Bic Mac (in US Dollars) over time.""")    
 
-    dpg_edit = dpg.rename(columns = {"Value":"Big Mac price ($)"})
+    bigmac_edit = bigmac.rename(columns = {"Value":"Big Mac price ($)"})
 
-    st.line_chart(data = dpg_edit, width=0, height=0, use_container_width=True)
+    st.line_chart(data = bigmac_edit, width=0, height=0, use_container_width=True)
     
       ### More details available on this Gas Price index via clicking the text expander:
 
