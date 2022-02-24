@@ -56,7 +56,7 @@ if option == 'Carrier dashboard':
     
     st.write("""This index tracks market fluctuations in per-mile truckload pricing. Data is derived from actual freight invoices paid on  behalf of Cass' clients""")
     
-    st.image('https://www.cassinfo.com/hs-fs/hubfs/Freight%20Payment%20/Transportation%20Indexes/Indexes%202021/December%202021/Cass%20Truckload%20Linehaul%20Index%20December%202021.png?width=1146&name=Cass%20Truckload%20Linehaul%20Index%20December%202021.png', width=675)
+    st.image('https://www.cassinfo.com/hs-fs/hubfs/Freight%20Payment%20/Transportation%20Indexes/Transportation%20Indexes%20Reports/Indexes%202022/Cass%20Truckload%20Linehaul%20Index%20January%202022.png?width=1146&name=Cass%20Truckload%20Linehaul%20Index%20January%202022.png', width=675)
     
     
 #    st.line_chart(data=cassctli, width=0, height=0, use_container_width=True)
